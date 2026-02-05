@@ -33,7 +33,7 @@
 },
 {
   "id": "udoym-merc-2023",
-  "institution": "UDOYM",
+  "institution": "O&M",
   "degree_type": "Grado",
   "career_name": "Licenciatura en Mercadotecnia",
   "path": "data/udoym/grado/mercadotecnia.json",
@@ -41,5 +41,6 @@
 }
   
 ]
+
 
 
