@@ -22,5 +22,14 @@
     "career_name": "Ingeniería Química",
     "path": "data/uasd/grado/ingenieria-quimica.json",
     "last_update": "2024-05-22"
-  }
+  },
+  {
+  "id": "uasd-imag-000014",
+  "institution": "UASD",
+  "degree_type": "Grado",
+  "career_name": "Licenciatura en Imagenologia",
+  "path": "data/uasd/grado/imagenologia.json",
+  "last_update": "2026-02-05"
+}
 ]
+
