@@ -14,5 +14,13 @@
     "career_name": "Licenciatura en Química",
     "path": "data/uasd/grado/licenciatura_en_quimica.json",
     "last_update": "2023-11-15"
+  },
+  {
+    "id": "uasd-ing-quim-2014",
+    "institution": "UASD",
+    "degree_type": "Grado",
+    "career_name": "Ingeniería Química",
+    "path": "data/uasd/grado/ingenieria-quimica.json",
+    "last_update": "2024-05-22"
   }
 ]
