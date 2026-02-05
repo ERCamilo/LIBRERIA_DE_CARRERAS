@@ -38,9 +38,18 @@
   "career_name": "Licenciatura en Mercadotecnia",
   "path": "data/udoym/grado/mercadotecnia.json",
   "last_update": "2024-05-22"
+},
+{
+  "id": "uasd-civil-000012",
+  "institution": "UASD",
+  "degree_type": "Grado",
+  "career_name": "Ingeniería Civil",
+  "path": "data/uasd/grado/ingenieria-civil.json",
+  "last_update": "2026-02-05"
 }
   
 ]
+
 
 
 
