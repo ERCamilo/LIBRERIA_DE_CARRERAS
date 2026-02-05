@@ -30,6 +30,16 @@
   "career_name": "Licenciatura en Imagenologia",
   "path": "data/uasd/grado/imagenologia.json",
   "last_update": "2026-02-05"
+},
+{
+  "id": "udoym-merc-2023",
+  "institution": "UDOYM",
+  "degree_type": "Grado",
+  "career_name": "Licenciatura en Mercadotecnia",
+  "path": "data/udoym/grado/mercadotecnia.json",
+  "last_update": "2024-05-22"
 }
+  
 ]
+
 
