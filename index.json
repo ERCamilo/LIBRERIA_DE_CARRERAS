@@ -54,9 +54,26 @@
   "career_name": "Tecnólogo en Desarrollo de Software",
   "path": "data/itla/tecnico/desarrollo-software.json",
   "last_update": "2026-02-06"
+},
+{
+  "id": "unicaribe-ciber-2024",
+  "institution": "UNICARIBE",
+  "degree_type": "Grado",
+  "career_name": "Ingeniería en Ciberseguridad",
+  "path": "data/unicaribe/grado/ciberseguridad.json",
+  "last_update": "2024-11-20"
+},
+{
+  "id": "unicaribe-soft-2024",
+  "institution": "UNICARIBE",
+  "degree_type": "Grado",
+  "career_name": "Ingeniería de Software",
+  "path": "data/unicaribe/grado/software.json",
+  "last_update": "2024-11-20"
 }
   
 ]
+
 
 
 
