@@ -46,9 +46,18 @@
   "career_name": "Ingeniería Civil",
   "path": "data/uasd/grado/ingenieria-civil.json",
   "last_update": "2026-02-05"
+},
+{
+  "id": "itla-tds-2019",
+  "institution": "ITLA",
+  "degree_type": "Técnico Superior",
+  "career_name": "Tecnólogo en Desarrollo de Software",
+  "path": "data/itla/tecnico/desarrollo-software.json",
+  "last_update": "2026-02-06"
 }
   
 ]
+
 
 
 
