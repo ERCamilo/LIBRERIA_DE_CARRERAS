@@ -1,0 +1,78 @@
+{
+  "id": "itla-tds-2019",
+  "metadata": {
+    "institution": "Instituto Tecnológico de las Américas",
+    "career_name": "Tecnólogo en Desarrollo de Software",
+    "degree": "Tecnólogo en Desarrollo de Software",
+    "period_type": "Cuatrimestre",
+    "total_credits": 122,
+    "duration_years": 2.3
+  },
+  "requirements": [
+    { "id": "req-1", "name": "Proyecto Final de Carrera", "completed": false },
+    { "id": "req-2", "name": "Pasantía Técnica", "completed": false }
+  ],
+  "periods": [
+    {
+      "period_number": 1,
+      "name": "Primer Período Cuatrimestral",
+      "subjects": [
+        { "id": "TI-101", "code": "TI-101", "name": "Fundamentos del computador", "credits": 4, "prerequisites": [] },
+        { "id": "TDS-001", "code": "TDS-001", "name": "Introducción a la elaboración de Algoritmos", "credits": 4, "prerequisites": [] },
+        { "id": "HIS-101", "code": "HIS-101", "name": "Historia Universal", "credits": 3, "prerequisites": [] },
+        { "id": "ESP-101", "code": "ESP-101", "name": "Redacción Castellana", "credits": 4, "prerequisites": [] },
+        { "id": "MAT-001", "code": "MAT-001", "name": "Pre-calculo", "credits": 5, "prerequisites": [] },
+        { "id": "OAI-001", "code": "OAI-001", "name": "Orientación Institucional", "credits": 1, "prerequisites": [] },
+        { "id": "CBG-110", "code": "CBG-110", "name": "Ética 1", "credits": 3, "prerequisites": [] },
+        { "id": "ING-001", "code": "ING-001", "name": "Inglés Nivel 1-3", "credits": 0, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 2,
+      "name": "Segundo Período Cuatrimestral",
+      "subjects": [
+        { "id": "HIS-102", "code": "HIS-102", "name": "Historia Dominicana", "credits": 3, "prerequisites": ["HIS-101"] },
+        { "id": "MAT-101", "code": "MAT-101", "name": "Cálculo Diferencial", "credits": 5, "prerequisites": ["MAT-001"] },
+        { "id": "TI-115", "code": "TI-115", "name": "Contabilidad Financiera", "credits": 4, "prerequisites": ["MAT-001"] },
+        { "id": "ING-002", "code": "ING-002", "name": "Inglés Nivel 4-6", "credits": 0, "prerequisites": ["ING-001"] },
+        { "id": "TDS-002", "code": "TDS-002", "name": "Fundamentos de Programación", "credits": 4, "prerequisites": ["TDS-001"] },
+        { "id": "TDS-101", "code": "TDS-101", "name": "Introducción a las Base de Datos", "credits": 4, "prerequisites": ["TDS-001"] },
+        { "id": "CBG-120", "code": "CBG-120", "name": "Ética 2", "credits": 3, "prerequisites": ["CBG-110"] }
+      ]
+    },
+    {
+      "period_number": 3,
+      "name": "Tercer Período Cuatrimestral",
+      "subjects": [
+        { "id": "TDS-003", "code": "TDS-003", "name": "Programación I", "credits": 4, "prerequisites": ["TDS-002"] },
+        { "id": "TDS-004", "code": "TDS-004", "name": "Análisis y Diseño de Sistemas", "credits": 4, "prerequisites": ["TDS-002"] },
+        { "id": "TDS-005", "code": "TDS-005", "name": "Diseño de Interfaces", "credits": 4, "prerequisites": ["TDS-002"] },
+        { "id": "MAT-102", "code": "MAT-102", "name": "Cálculo Integral", "credits": 5, "prerequisites": ["MAT-101"] },
+        { "id": "CBG-210", "code": "CBG-210", "name": "Física Mecánica", "credits": 4, "prerequisites": ["MAT-101"] },
+        { "id": "ING-003", "code": "ING-003", "name": "Inglés Nivel 7-9", "credits": 0, "prerequisites": ["ING-002"] }
+      ]
+    },
+    {
+      "period_number": 4,
+      "name": "Cuarto Período Cuatrimestral",
+      "subjects": [
+        { "id": "TDS-201", "code": "TDS-201", "name": "Inteligencia Artificial", "credits": 4, "prerequisites": ["TDS-003", "TDS-004"] },
+        { "id": "TDS-006", "code": "TDS-006", "name": "Programación II", "credits": 4, "prerequisites": ["TDS-003", "TDS-004"] },
+        { "id": "TDS-102", "code": "TDS-102", "name": "Base de Datos Avanzada", "credits": 4, "prerequisites": ["TDS-101", "TDS-002"] },
+        { "id": "CBG-215", "code": "CBG-215", "name": "Metodología de la Investigación", "credits": 3, "prerequisites": ["TDS-003", "TDS-004", "CBG-210"] },
+        { "id": "ING-004", "code": "ING-004", "name": "Inglés Nivel 10-12", "credits": 0, "prerequisites": ["ING-003"] }
+      ]
+    },
+    {
+      "period_number": 5,
+      "name": "Quinto Período Cuatrimestral",
+      "subjects": [
+        { "id": "TDS-301", "code": "TDS-301", "name": "Auditoría Informática", "credits": 4, "prerequisites": ["TDS-102", "TDS-006"] },
+        { "id": "TDS-007", "code": "TDS-007", "name": "Programación III", "credits": 4, "prerequisites": ["TDS-005", "TDS-006"] },
+        { "id": "TDS-103", "code": "TDS-103", "name": "Minería de Datos e Inteligencia de Negocios", "credits": 4, "prerequisites": ["TDS-102"] },
+        { "id": "TME-001", "code": "TME-001", "name": "Fundamentos de Electrónica", "credits": 4, "prerequisites": ["MAT-001"] },
+        { "id": "TDS-008", "code": "TDS-008", "name": "Programación Web", "credits": 4, "prerequisites": ["TDS-102", "TDS-003"] }
+      ]
+    }
+  ]
+}
