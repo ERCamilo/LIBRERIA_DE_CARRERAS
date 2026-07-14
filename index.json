@@ -7,6 +7,38 @@
     "path": "data/uapa/grado/ingenieria_de_software.json", 
     "last_update": "2024-01-20"
   },
+   {
+    "id": "uapa-soft-2025",
+    "institution": "UAPA",
+    "degree_type": "Grado",
+    "career_name": "Ingeniería en Software (Pensum 6)",
+    "path": "data/uapa/grado/ingenieria_de_software_Pensum_6.json", 
+    "last_update": "2025-05-01"
+  },
+   {
+    "id": "uapa-soft-2018",
+    "institution": "UAPA",
+    "degree_type": "Grado",
+    "career_name": "Licenciatura en Informaatica Gerencial (Pensum 5)",
+    "path": "data/uapa/grado/licenciatura_en_informatica_gerencial_pensum_5.json", 
+    "last_update": "2024-01-20"
+  },
+     {
+    "id": "uapa-soft-2026",
+    "institution": "UAPA",
+    "degree_type": "Grado",
+    "career_name": "Licenciatura en Informaatica Gerencial (Pensum 6)",
+    "path": "data/uapa/grado/licenciatura_en_informatica_gerencial_pensum_6.json", 
+    "last_update": "2026-08-01"
+  },
+       {
+    "id": "uapa-soft-2026",
+    "institution": "UAPA",
+    "degree_type": "Grado",
+    "career_name": "Ingenieria En Ciencia De Datos (Pensum 6)",
+    "path": "data/uapa/grado/ingenieria_en_ciencia_de_datos_pensum_6.json", 
+    "last_update": "2025-05-01"
+  },
   {
     "id": "uasd-quim-2011",
     "institution": "UASD",
