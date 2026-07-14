@@ -1,0 +1,174 @@
+{
+  "id": "uapa-infg-2026",
+  "metadata": {
+    "institution": "UAPA",
+    "career_name": "Licenciatura en Informática Gerencial",
+    "degree": "Licenciado/a en Informática Gerencial",
+    "period_type": "Trimestre",
+    "total_credits": 222,
+    "duration_years": 4
+  },
+  "requirements": [
+    { "id": "req-1", "name": "Servicio Social Universitario (60h - Requisito: 6º trimestre aprobado)", "completed": false },
+    { "id": "req-2", "name": "Constancia de suficiencia del idioma inglés intermedio (nivel B1) previo al Curso Final de Grado", "completed": false },
+    { "id": "req-3", "name": "Certificación de participación en 2 eventos científicos del área (mínimo 4h c/u)", "completed": false },
+    { "id": "req-4", "name": "Certificación o Micro-certificación en Emprendimiento o Gestión y Liderazgo", "completed": false }
+  ],
+  "periods": [
+    {
+      "period_number": 1,
+      "name": "Primer Trimestre",
+      "subjects": [
+        { "id": "CBC-103", "code": "CBC-103", "name": "Orientación a la Educación a Distancia Virtual", "credits": 3, "prerequisites": [] },
+        { "id": "CBE-105", "code": "CBE-105", "name": "Tecnología para el Aprendizaje Virtual", "credits": 3, "prerequisites": [] },
+        { "id": "CBE-109", "code": "CBE-109", "name": "Comunicación Oral y Escrita", "credits": 4, "prerequisites": [] },
+        { "id": "CBM-107", "code": "CBM-107", "name": "Razonamiento Lógico Matemático", "credits": 4, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 2,
+      "name": "Segundo Trimestre",
+      "subjects": [
+        { "id": "FGI-103", "code": "FGI-103", "name": "Lógica Computacional", "credits": 4, "prerequisites": ["CBM-107"] },
+        { "id": "CBC-107", "code": "CBC-107", "name": "Ser Humano y Desarrollo Sostenible", "credits": 3, "prerequisites": [] },
+        { "id": "FGI-102", "code": "FGI-102", "name": "Álgebra y Geometría para Ingenieros", "credits": 4, "prerequisites": [] },
+        { "id": "FGC-203", "code": "FGC-203", "name": "Filosofía y Sociedad", "credits": 3, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 3,
+      "name": "Tercer Trimestre",
+      "subjects": [
+        { "id": "CBE-110", "code": "CBE-110", "name": "Análisis y Producción de Textos", "credits": 4, "prerequisites": ["CBE-109"] },
+        { "id": "FGI-104", "code": "FGI-104", "name": "Programación I", "credits": 4, "prerequisites": ["FGI-103"] },
+        { "id": "ING-103", "code": "ING-103", "name": "Inglés Comunicativo", "credits": 3, "prerequisites": [] },
+        { "id": "FGC-208", "code": "FGC-208", "name": "Educación Constitucional", "credits": 3, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 4,
+      "name": "Cuarto Trimestre",
+      "subjects": [
+        { "id": "ADM-103", "code": "ADM-103", "name": "Fundamentos de Administración Empresarial", "credits": 4, "prerequisites": [] },
+        { "id": "FGI-412", "code": "FGI-412", "name": "Ciencia, Tecnología y Sociedad", "credits": 3, "prerequisites": [] },
+        { "id": "FGC-105", "code": "FGC-105", "name": "Metodología de la Investigación Científica", "credits": 4, "prerequisites": [] },
+        { "id": "FGC-409", "code": "FGC-409", "name": "Ética Profesional", "credits": 3, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 5,
+      "name": "Quinto Trimestre",
+      "subjects": [
+        { "id": "FGI-105", "code": "FGI-105", "name": "Programación II", "credits": 4, "prerequisites": ["FGI-104"] },
+        { "id": "FGI-106", "code": "FGI-106", "name": "Sistema de Base de Datos", "credits": 4, "prerequisites": [] },
+        { "id": "ING-213", "code": "ING-213", "name": "Inglés Técnico para Ingenieros", "credits": 3, "prerequisites": ["ING-103"] },
+        { "id": "COE-101", "code": "COE-101", "name": "Contabilidad I", "credits": 4, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 6,
+      "name": "Sexto Trimestre",
+      "subjects": [
+        { "id": "FGC-204", "code": "FGC-204", "name": "Investigación Aplicada", "credits": 4, "prerequisites": ["FGC-105"] },
+        { "id": "FGI-208", "code": "FGI-208", "name": "Análisis y Diseño de Sistema", "credits": 4, "prerequisites": [] },
+        { "id": "FGM-207", "code": "FGM-207", "name": "Estadística y Probabilidades", "credits": 4, "prerequisites": [] },
+        { "id": "ADM-314", "code": "ADM-314", "name": "Liderazgo y Gestión de Equipos", "credits": 3, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 7,
+      "name": "Séptimo Trimestre",
+      "subjects": [
+        { "id": "ISW-414", "code": "ISW-414", "name": "Fundamentos de Inteligencia de Negocios", "credits": 4, "prerequisites": [] },
+        { "id": "INF-408", "code": "INF-408", "name": "Investigación de Operaciones", "credits": 4, "prerequisites": ["FGM-207"] },
+        { "id": "ADM-311", "code": "ADM-311", "name": "Administración Estratégica I", "credits": 4, "prerequisites": [] },
+        { "id": "OPT-1", "code": "OPT-1", "name": "Asignatura Optativa 1", "credits": 3, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 8,
+      "name": "Octavo Trimestre",
+      "subjects": [
+        { "id": "ISW-306", "code": "ISW-306", "name": "Sistema de Automatización de Oficinas", "credits": 4, "prerequisites": ["FGI-208"] },
+        { "id": "INF-304", "code": "INF-304", "name": "Fundamentos de Economía", "credits": 4, "prerequisites": [] },
+        { "id": "INF-204", "code": "INF-204", "name": "Estructura de Datos y Algoritmos", "credits": 4, "prerequisites": [] },
+        { "id": "OPT-2", "code": "OPT-2", "name": "Asignatura Optativa 2", "credits": 3, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 9,
+      "name": "Noveno Trimestre",
+      "subjects": [
+        { "id": "ISW-309", "code": "ISW-309", "name": "Inteligencia Artificial", "credits": 4, "prerequisites": [] },
+        { "id": "INF-307", "code": "INF-307", "name": "Gestión de Conocimiento y la Toma de Decisiones", "credits": 4, "prerequisites": ["INF-304"] },
+        { "id": "MER-105", "code": "MER-105", "name": "Fundamentos de Marketing", "credits": 4, "prerequisites": ["INF-204"] },
+        { "id": "OPT-3", "code": "OPT-3", "name": "Asignatura Optativa 3", "credits": 3, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 10,
+      "name": "Décimo Trimestre",
+      "subjects": [
+        { "id": "CID-101", "code": "CID-101", "name": "Ciencia de Datos", "credits": 4, "prerequisites": ["ISW-309"] },
+        { "id": "INF-308", "code": "INF-308", "name": "Arquitectura Empresarial", "credits": 4, "prerequisites": [] },
+        { "id": "MER-415", "code": "MER-415", "name": "Marketing Digital", "credits": 3, "prerequisites": ["MER-105"] },
+        { "id": "TRS-207", "code": "TRS-207", "name": "Pensamiento Crítico Tecnológico", "credits": 4, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 11,
+      "name": "Décimo Primer Trimestre",
+      "subjects": [
+        { "id": "CID-409", "code": "CID-409", "name": "Visualización de la Información", "credits": 4, "prerequisites": ["CID-101"] },
+        { "id": "ISW-420", "code": "ISW-420", "name": "Ciberseguridad", "credits": 4, "prerequisites": [] },
+        { "id": "LAS-313", "code": "LAS-313", "name": "Laboratorio de Ciberseguridad", "credits": 1, "prerequisites": ["ISW-420"] },
+        { "id": "PSI-203", "code": "PSI-203", "name": "Gestión Humana", "credits": 4, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 12,
+      "name": "Décimo Segundo Trimestre",
+      "subjects": [
+        { "id": "ISW-412", "code": "ISW-412", "name": "Minería de Datos", "credits": 4, "prerequisites": [] },
+        { "id": "INF-409", "code": "INF-409", "name": "Formación de Empresas de Base Tecnológica", "credits": 4, "prerequisites": ["INF-308"] },
+        { "id": "PSI-202", "code": "PSI-202", "name": "Comportamiento Organizacional", "credits": 4, "prerequisites": [] },
+        { "id": "ADM-207", "code": "ADM-207", "name": "Sostenibilidad y Responsabilidad Corporativa", "credits": 3, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 13,
+      "name": "Décimo Tercer Trimestre",
+      "subjects": [
+        { "id": "INF-306", "code": "INF-306", "name": "Administración de Sistema de Información", "credits": 4, "prerequisites": ["INF-409"] },
+        { "id": "ISW-304", "code": "ISW-304", "name": "Desarrollo de Proyectos con Software Libre", "credits": 4, "prerequisites": [] },
+        { "id": "ISW-413", "code": "ISW-413", "name": "Simulación Digital", "credits": 4, "prerequisites": [] },
+        { "id": "FGP-421", "code": "FGP-421", "name": "Coaching", "credits": 3, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 14,
+      "name": "Décimo Cuarto Trimestre",
+      "subjects": [
+        { "id": "INF-412", "code": "INF-412", "name": "Auditoría de Sistemas de Información", "credits": 3, "prerequisites": [] },
+        { "id": "ADM-419", "code": "ADM-419", "name": "Creación y Gerencia de Pymes", "credits": 4, "prerequisites": [] },
+        { "id": "PIN-400", "code": "PIN-400", "name": "Práctica Profesional (Pasantía)", "credits": 8, "prerequisites": ["INF-306"] }
+      ]
+    },
+    {
+      "period_number": 15,
+      "name": "Décimo Quinto Trimestre",
+      "subjects": [
+        { "id": "TRS-208", "code": "TRS-208", "name": "Gestión de Incidentes", "credits": 4, "prerequisites": [] },
+        { "id": "INF-413", "code": "INF-413", "name": "Consultoría en Transformación Digital", "credits": 4, "prerequisites": [] },
+        { "id": "INF-414", "code": "INF-414", "name": "Seminario de Proyectos Gerenciales", "credits": 4, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 16,
+      "name": "Décimo Sexto Trimestre",
+      "subjects": [
+        { "id": "INF-400", "code": "INF-400", "name": "Curso Final de Grado", "credits": 6, "prerequisites": ["ALL"] }
+      ]
+    }
+  ]
+}
