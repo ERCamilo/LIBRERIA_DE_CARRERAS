@@ -1,0 +1,166 @@
+{
+  "id": "uapa-dat-2025",
+  "metadata": {
+    "institution": "UAPA",
+    "career_name": "Ingeniería en Ciencia de Datos",
+    "degree": "Ingeniero/a en Ciencia de Datos",
+    "period_type": "Trimestre",
+    "total_credits": 194,
+    "duration_years": 4
+  },
+  "requirements": [
+    { "id": "req-1", "name": "Servicio Social Universitario (60h - Requisito: 6º trimestre aprobado)", "completed": false },
+    { "id": "req-2", "name": "Constancia de suficiencia del idioma inglés intermedio (nivel B1) previo al Curso Final de Grado", "completed": false },
+    { "id": "req-3", "name": "Certificación de participación en 2 eventos científicos del área (mínimo 4h c/u)", "completed": false },
+    { "id": "req-4", "name": "Certificación o Micro-certificación en Emprendimiento o Gestión y Liderazgo", "completed": false }
+  ],
+  "periods": [
+    {
+      "period_number": 1,
+      "name": "Primer Trimestre",
+      "subjects": [
+        { "id": "CBC-103", "code": "CBC-103", "name": "Orientación a la Educación a Distancia Virtual", "credits": 3, "prerequisites": [] },
+        { "id": "CBC-105", "code": "CBC-105", "name": "Tecnología para el Aprendizaje Virtual", "credits": 3, "prerequisites": [] },
+        { "id": "CBE-109", "code": "CBE-109", "name": "Comunicación Oral y Escrita", "credits": 4, "prerequisites": [] },
+        { "id": "CBC-107", "code": "CBC-107", "name": "Ser Humano y Desarrollo Sostenible", "credits": 3, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 2,
+      "name": "Segundo Trimestre",
+      "subjects": [
+        { "id": "CBM-107", "code": "CBM-107", "name": "Razonamiento Lógico Matemático", "credits": 4, "prerequisites": [] },
+        { "id": "FGI-103", "code": "FGI-103", "name": "Lógica Computacional", "credits": 4, "prerequisites": [] },
+        { "id": "FGI-102", "code": "FGI-102", "name": "Algebra y Geometría para Ingenieros", "credits": 4, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 3,
+      "name": "Tercer Trimestre",
+      "subjects": [
+        { "id": "CBE-110", "code": "CBE-110", "name": "Análisis y Producción de Textos", "credits": 4, "prerequisites": [] },
+        { "id": "FGI-104", "code": "FGI-104", "name": "Programación I", "credits": 4, "prerequisites": ["FGI-103"] },
+        { "id": "FGM-102", "code": "FGM-102", "name": "Análisis Matemático I", "credits": 5, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 4,
+      "name": "Cuarto Trimestre",
+      "subjects": [
+        { "id": "FGI-105", "code": "FGI-105", "name": "Programación II", "credits": 4, "prerequisites": ["FGI-104"] },
+        { "id": "FGI-106", "code": "FGI-106", "name": "Sistema de Base de Datos", "credits": 3, "prerequisites": ["FGI-104"] },
+        { "id": "FGM-103", "code": "FGM-103", "name": "Análisis Matemático II", "credits": 5, "prerequisites": ["FGM-102"] }
+      ]
+    },
+    {
+      "period_number": 5,
+      "name": "Quinto Trimestre",
+      "subjects": [
+        { "id": "FGC-105", "code": "FGC-105", "name": "Metodología de la Investigación Científica", "credits": 4, "prerequisites": [] },
+        { "id": "FGI-208", "code": "FGI-208", "name": "Análisis y Diseño de Sistema", "credits": 4, "prerequisites": ["FGI-106"] },
+        { "id": "CID-101", "code": "CID-101", "name": "Ciencia de Datos", "credits": 4, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 6,
+      "name": "Sexto Trimestre",
+      "subjects": [
+        { "id": "FGC-204", "code": "FGC-204", "name": "Investigación Aplicada", "credits": 4, "prerequisites": ["FGC-105"] },
+        { "id": "FGF-201", "code": "FGF-201", "name": "Física General", "credits": 4, "prerequisites": [] },
+        { "id": "LAF-201", "code": "LAF-201", "name": "Práctica de Física General", "credits": 1, "prerequisites": ["FGF-201"] },
+        { "id": "FGM-215", "code": "FGM-215", "name": "Estadistica Probabilistica e Inferencial", "credits": 4, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 7,
+      "name": "Séptimo Trimestre",
+      "subjects": [
+        { "id": "FGC-203", "code": "FGC-203", "name": "Filosofía y Sociedad", "credits": 3, "prerequisites": [] },
+        { "id": "FGF-207", "code": "FGF-207", "name": "Física Mecánica", "credits": 4, "prerequisites": ["FGF-201"] },
+        { "id": "LAF-207", "code": "LAF-207", "name": "Laboratorio de Física Mecánica", "credits": 1, "prerequisites": ["FGF-207"] },
+        { "id": "OPT-1", "code": "OPT-1", "name": "Asignatura Optativa 1", "credits": 3, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 8,
+      "name": "Octavo Trimestre",
+      "subjects": [
+        { "id": "CID-202", "code": "CID-202", "name": "Datos Masivos", "credits": 4, "prerequisites": ["CID-101"] },
+        { "id": "CID-203", "code": "CID-203", "name": "Modelos de Programación Para Ciencia de Datos", "credits": 4, "prerequisites": [] },
+        { "id": "OPT-2", "code": "OPT-2", "name": "Asignatura Optativa 2", "credits": 3, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 9,
+      "name": "Noveno Trimestre",
+      "subjects": [
+        { "id": "FGC-208", "code": "FGC-208", "name": "Educación Constitucional", "credits": 3, "prerequisites": [] },
+        { "id": "FGM-205", "code": "FGM-205", "name": "Matemática Discreta", "credits": 3, "prerequisites": [] },
+        { "id": "ISW-305", "code": "ISW-305", "name": "Estructura de Datos y Algoritmos", "credits": 4, "prerequisites": ["FGI-105"] },
+        { "id": "FGM-309", "code": "FGM-309", "name": "Probabilidad Aplicada y Simulación Estocástica", "credits": 3, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 10,
+      "name": "Décimo Trimestre",
+      "subjects": [
+        { "id": "FGC-409", "code": "FGC-409", "name": "Ética Profesional", "credits": 3, "prerequisites": [] },
+        { "id": "FGM-206", "code": "FGM-206", "name": "Álgebra Lineal", "credits": 4, "prerequisites": [] },
+        { "id": "CID-304", "code": "CID-304", "name": "Métodos Matemáticos Computacionales", "credits": 4, "prerequisites": ["FGM-205"] }
+      ]
+    },
+    {
+      "period_number": 11,
+      "name": "Décimo Primer Trimestre",
+      "subjects": [
+        { "id": "INF-303", "code": "INF-303", "name": "Seguridad Informática", "credits": 4, "prerequisites": [] },
+        { "id": "ISW-309", "code": "ISW-309", "name": "Inteligencia Artificial", "credits": 4, "prerequisites": [] },
+        { "id": "CID-305", "code": "CID-305", "name": "Arquitectura de Grandes Volúmenes de Datos", "credits": 4, "prerequisites": ["ISW-305"] }
+      ]
+    },
+    {
+      "period_number": 12,
+      "name": "Décimo Segundo Trimestre",
+      "subjects": [
+        { "id": "FGN-204", "code": "FGN-204", "name": "Contabilidad y Finanzas", "credits": 4, "prerequisites": [] },
+        { "id": "CID-306", "code": "CID-306", "name": "Tratamiento de Datos", "credits": 4, "prerequisites": ["CID-305"] },
+        { "id": "CID-307", "code": "CID-307", "name": "Reconocimiento de Patrones", "credits": 4, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 13,
+      "name": "Décimo Tercer Trimestre",
+      "subjects": [
+        { "id": "CID-408", "code": "CID-408", "name": "Calidad y Pre-Procesamiento de Datos", "credits": 4, "prerequisites": [] },
+        { "id": "CID-409", "code": "CID-409", "name": "Visualización de la Información", "credits": 4, "prerequisites": ["CID-307"] },
+        { "id": "CID-411", "code": "CID-411", "name": "Inteligencia de Negocios", "credits": 4, "prerequisites": [] },
+        { "id": "OPT-3", "code": "OPT-3", "name": "Asignatura Optativa 3", "credits": 3, "prerequisites": [] }
+      ]
+    },
+    {
+      "period_number": 14,
+      "name": "Décimo Cuarto Trimestre",
+      "subjects": [
+        { "id": "CID-410", "code": "CID-410", "name": "Aprendizaje de Máquinas", "credits": 4, "prerequisites": ["ISW-309"] },
+        { "id": "INF-408", "code": "INF-408", "name": "Investigación de Operaciones", "credits": 4, "prerequisites": [] },
+        { "id": "PPZ-400", "code": "PPZ-400", "name": "Práctica Profesional (Pasantía)", "credits": 8, "prerequisites": ["CID-409"] }
+      ]
+    },
+    {
+      "period_number": 15,
+      "name": "Décimo Quinto Trimestre",
+      "subjects": [
+        { "id": "ISW-412", "code": "ISW-412", "name": "Minería de Datos", "credits": 4, "prerequisites": [] },
+        { "id": "CID-115", "code": "CID-115", "name": "Procesamiento del Lenguaje Natural", "credits": 4, "prerequisites": [] },
+        { "id": "CID-413", "code": "CID-413", "name": "Diseño y Gestión de Proyectos en Ciencia de Datos", "credits": 4, "prerequisites": ["CID-307"] }
+      ]
+    },
+    {
+      "period_number": 16,
+      "name": "Décimo Sexto Trimestre",
+      "subjects": [
+        { "id": "CID-400", "code": "CID-400", "name": "Curso Final de Grado", "credits": 6, "prerequisites": ["ALL"] }
+      ]
+    }
+  ]
+}
